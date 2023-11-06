@@ -1,9 +1,10 @@
 import React from 'react';
+import jimmyApron from './images/jimmy-apron.png';
 
 export const ContactForm = () => {
   return (
     <div>
-      <div class="min-h-screen flex items-center justify-center bg-gray-100">
+      <div class="min-h-full py-10 flex items-center justify-center bg-gray-100">
         <div class="max-w-md w-full px-6 py-8 bg-white rounded-lg shadow-md">
           <h2 class="text-2xl font-bold text-gray-800 mb-4">
             Contact me with any questions
@@ -49,6 +50,13 @@ export const ContactForm = () => {
               </button>
             </div>
           </form>
+        </div>
+        <div className="px-10">
+          <img
+            className="h-70 w-60 rounded-lg shadow-md"
+            src={jimmyApron}
+            alt="jimmy-apron"
+          />
         </div>
       </div>
     </div>
