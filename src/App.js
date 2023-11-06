@@ -1,9 +1,14 @@
 import './App.css';
+import { Main } from './Main';
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world - testing</h1>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
