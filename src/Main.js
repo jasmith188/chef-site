@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Carousel } from './Carousel';
+// import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
+import { ImageDeck } from './ImageDeck';
 
 export const Main = () => {
   return (
@@ -44,9 +45,11 @@ export const Main = () => {
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
-              href="#"
+              href="https://docs.google.com/document/d/1IDTmK13A-aQH_Uv0n4WJPM2zCdEWkiAU-D9gkVe8B4E/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-              Get started
+              View Resume
               <svg
                 className="w-3.5 h-3.5 ml-2"
                 aria-hidden="true"
@@ -62,15 +65,18 @@ export const Main = () => {
                 />
               </svg>
             </a>
-            <a
+            {/* <a
               href="#"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
-      <Carousel />
+      <div className="flex justify-center">
+        <ImageDeck />
+      </div>
+      {/* <Carousel /> */}
       <ContactForm />
     </div>
   );
