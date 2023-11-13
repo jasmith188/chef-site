@@ -9,19 +9,15 @@ export const ContactForm = () => {
           <h2 class="text-2xl font-bold text-gray-800 mb-4">
             Contact me with any questions
           </h2>
-          <form name="chefjimmmycontactform" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <div class="mb-4">
               {/* <label
                 class="block text-gray-700 text-sm font-bold mb-2"
                 for="name"></label> */}
-              <input
-                type="hidden"
-                name="form-name"
-                value="chefjimmmycontactform"
-              />
+              <input type="hidden" name="form-name" value="contact" />
               <input
                 class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="name"
+                // id="name"
                 type="text"
                 placeholder="Your Name"
                 name="name"
@@ -33,7 +29,7 @@ export const ContactForm = () => {
                 for="email"></label> */}
               <input
                 class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email"
+                // id="email"
                 type="email"
                 name="email"
                 placeholder="Your Email"
@@ -45,7 +41,7 @@ export const ContactForm = () => {
                 for="message"></label> */}
               <textarea
                 class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message"
+                // id="message"
                 rows="5"
                 placeholder="Your Message"
                 name="message"></textarea>
