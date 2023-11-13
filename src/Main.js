@@ -23,10 +23,7 @@ export const Main = () => {
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
             Drawing inspiration from a diverse range of culinary traditions and
             utilizing the finest ingredients, I will design a customized menu
-            that reflects your tastes and dietary requirements. Whether you have
-            a penchant for delicate seafood dishes, succulent cuts of meat, or
-            vibrant vegetarian creations, I will meticulously craft each course
-            to delight your palate.
+            that reflects your tastes and dietary requirements.
           </p>
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
             In addition to my culinary skills, I bring a high level of
