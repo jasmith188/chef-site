@@ -3,8 +3,8 @@ import jimmyApron from './images/jimmy-apron.png';
 
 export const ContactForm = () => {
   return (
-    <div>
-      <div class=" flex-min-h-full py-10 flex  items-center justify-center bg-gray-100 flex-col md:flex-row">
+    <div id="form-placement">
+      <div class=" flex-min-h-full py-10 flex  items-center justify-center  flex-col md:flex-row">
         <div class="max-w-md w-full px-6 py-8 bg-white rounded-lg shadow-md">
           <h2 class="text-2xl font-bold text-gray-800 mb-4">
             Contact me with any questions
