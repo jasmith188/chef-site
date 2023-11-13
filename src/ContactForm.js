@@ -9,7 +9,7 @@ export const ContactForm = () => {
           <h2 class="text-2xl font-bold text-gray-800 mb-4">
             Contact me with any questions
           </h2>
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST" data-netlify="true">
             <div class="mb-4">
               <label
                 class="block text-gray-700 text-sm font-bold mb-2"
