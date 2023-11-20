@@ -5,8 +5,8 @@ export const ContactForm = () => {
   return (
     <div id="form-placement">
       <div class=" flex-min-h-full py-10 flex  items-center justify-center  flex-col md:flex-row">
-        <div class="max-w-md w-full px-6 py-8 bg-white rounded-lg shadow-md">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4">
+        <div class="max-w-md w-full px-6 py-8 rounded-lg shadow-md dark:bg-gray-700">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4 dark:text-white">
             Contact me with any questions
           </h2>
           <form name="contact" method="POST" data-netlify="true">
@@ -48,7 +48,7 @@ export const ContactForm = () => {
             </div>
             <div class="flex items-center justify-between">
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="submit">
                 Submit
               </button>

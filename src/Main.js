@@ -1,14 +1,15 @@
 import React from 'react';
 
 // import { Carousel } from './Carousel';
-import { ContactForm } from './ContactForm';
-import { ImageDeck } from './ImageDeck';
+// import { ContactForm } from './ContactForm';
+// import { ImageDeck } from './ImageDeck';
 
 export const Main = () => {
   return (
-    <div className="dark:bg-gray-900">
+    // <div className="dark:bg-gray-900">
+    <div>
       {/* <CardDeck /> */}
-      <section className="bg-white dark:bg-gray-900">
+      {/* <section className="bg-white dark:bg-gray-900">
         <div className="py-4 px-4 mx-auto max-w-screen-xl text-center ">
           <h1 className="my-10 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             Lets plan your next big meal!
@@ -65,11 +66,14 @@ export const Main = () => {
       </section>
       <div className="dark:bg-gray-800">
         <ImageDeck />
-        {/* <Carousel /> */}
       </div>
       <div id="form-placement">
         <ContactForm />
-      </div>
+      </div> */}
+
+      <h1 className="text-4xl">
+        Tasty things are being made. Website is almost done.
+      </h1>
     </div>
   );
 };
