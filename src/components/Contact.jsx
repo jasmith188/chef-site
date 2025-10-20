@@ -13,8 +13,9 @@ export default function Contact() {
           Tell me about your event—date, guest count, vibe—and I’ll follow up
           with a custom menu.
         </p>
-
+        
         <form
+          data-netlify="true"
           className="contact-form"
           action="https://formspree.io/f/your-form-id" /* <-- replace or hook your backend */
           method="POST"

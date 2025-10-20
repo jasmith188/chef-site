@@ -15,7 +15,6 @@ export default function App() {
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-
   return (
     <>
       <Header scrolled={scrolled} />
