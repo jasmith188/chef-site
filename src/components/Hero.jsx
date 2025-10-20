@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="top" className="hero">
       <div className="container hero-inner">
         <div className="hero-copy">
-          <h1>Elevated Private Dining, test Crafted Just for You</h1>
+          <h1>Elevated Private Dining, Crafted Just for You</h1>
           <p>
             I’m Jimmy, a private chef specializing in seasonal tasting menus,
             intimate celebrations, and chef’s-table experiences across
