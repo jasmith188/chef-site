@@ -63,7 +63,7 @@ export default function Contact() {
             disabled={status === 'submitting'}>
             {status === 'submitting' ? 'Sending…' : 'Send Inquiry'}
           </button>
-          <p className="form-note">Prefer email? chef@example.com</p>
+          <p className="form-note" type="email">Prefer email? jasmith.188@gmail.com</p>
         </form>
       </div>
     </section>

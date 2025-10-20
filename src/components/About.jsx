@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="section">
       <div className="container grid two-col">
         <div>
-          <h2>testAbout Me</h2>
+          <h2>About Me</h2>
           <p>
             I’m a Wisconsin-based chef with nearly two decades across fine
             dining, supper-club classics, and modern tasting menus. My cooking
@@ -23,6 +23,17 @@ export default function About() {
             <li>Family-style feasts & upscale buffets</li>
             <li>Wine pairings & bar coordination</li>
             <li>Dietary accommodations (GF, DF, veg)</li>
+          </ul>
+          <h2>Families & Weekly Meal Planning</h2>
+          <p>Make weeknights effortless. I’ll shop, cook, portion, label, and stock
+          your fridge with balanced, chef-crafted meals tailored to your family’s
+          tastes and schedule.</p>
+          <ul className="bullets">
+          <li>Custom menus (kid-approved + dietary preferences)</li>
+              <li>Weekly / biweekly / monthly cadence</li>
+              <li>Shopping, cooking, clean-up, labeled containers</li>
+              <li>Reheat/finishing guide for every dish</li>
+              <li>Breakfast, lunches, snacks & freezer meals available</li>
           </ul>
         </div>
         <aside className="about-card">
