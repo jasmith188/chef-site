@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="section">
       <div className="container grid two-col">
         <div>
-          <h2>test About Me</h2>
+          <h2>About Me</h2>
           <p>
             I’m a Wisconsin-based chef with nearly two decades across fine
             dining, supper-club classics, and modern tasting menus. My cooking
