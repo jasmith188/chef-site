@@ -401,6 +401,7 @@ section.alt {
   }
   .gallery {
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   .hero-highlights {
     flex-wrap: wrap;
