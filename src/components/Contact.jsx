@@ -32,11 +32,12 @@ export default function Contact() {
             <div className="grid two-col">
               <label>
                 Name
-                <input name="name" type="text" required placeholder="Your name" />
+                <input value="contact-form" name="name" type="text" required placeholder="Your name" />
               </label>
               <label>
                 Email
                 <input
+                value="contact-form"
                   name="email"
                   type="email"
                   required
@@ -48,11 +49,11 @@ export default function Contact() {
             <div className="grid two-col">
               <label>
                 Event Date
-                <input name="date" type="date" />
+                <input value="contact-form" name="date" type="date" />
               </label>
               <label>
                 Guests
-                <input name="guests" type="number" min="1" placeholder="8" />
+                <input value="contact-form" name="guests" type="number" min="1" placeholder="8" />
               </label>
             </div>
 
