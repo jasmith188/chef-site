@@ -21,10 +21,11 @@ export default function Contact() {
             />
           </figure>
 
-          <form data-netlify="true" 
+          <form 
+            data-netlify="true" 
             name='contact'
             className="contact-form"
-            action="https://formspree.io/f/your-form-id"
+            // action="https://formspree.io/f/your-form-id"
             method="POST"
             onSubmit={() => setStatus('submitting')}
           >
