@@ -23,7 +23,7 @@ export default function Contact() {
 
           <form 
             netlify
-            name="contact"
+            name="contact-form"
             className="contact-form"
             // action="https://formspree.io/f/your-form-id"
             method="POST"
