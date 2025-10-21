@@ -22,8 +22,8 @@ export default function Contact() {
           </figure>
 
           <form 
-            data-netlify="true" 
-            name='contact'
+            netlify
+            name="contact"
             className="contact-form"
             // action="https://formspree.io/f/your-form-id"
             method="POST"
