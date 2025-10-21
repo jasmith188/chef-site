@@ -41,6 +41,44 @@ body {
 .section.alt {
   background: var(--bg-alt);
 }
+/* Hexagon-pattern background for section and section.alt */
+
+section,
+section.alt {
+  /* base background color */
+  /* background-color: #f8f8f8; */
+   /* adjust as needed */
+
+  /* repeating hexagon pattern using CSS gradients */
+  background-image:
+    repeating-linear-gradient(
+      120deg,
+      transparent 0px,
+      transparent 4px,
+      rgba(205, 193, 193, 0.05) 50px,
+      transparent 6px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      240deg,
+      transparent 0px,
+      transparent 4px,
+     rgba(205, 193, 193, 0.05) 50px,
+      transparent 6px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px,
+      transparent 44px,
+     rgba(205, 193, 193, 0.05) 50px,
+      transparent 56px,
+      transparent 100px
+    );
+  background-size: 100px 100px; /* adjust the tile size */
+  background-position: 34px 0, 0 0, 0 0;
+}
+
 .section-lead {
   color: var(--muted);
   margin-top: -8px;
@@ -217,7 +255,7 @@ body {
 /* Gallery */
 .gallery {
   display: grid;
-  gap: 10px;
+  gap: 9rem;
   grid-template-columns: repeat(2, 1fr); /* phones */
 }
 .gallery-item {

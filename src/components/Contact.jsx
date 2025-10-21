@@ -69,7 +69,7 @@ export default function Contact() {
             >
               {status === 'submitting' ? 'Sending…' : 'Send Inquiry'}
             </button>
-            <p className="form-note">Prefer email? chef@example.com</p>
+            <p className="form-note">Prefer email? jasmith.188@gmail.com</p>
           </form>
         </div>
       </div>
