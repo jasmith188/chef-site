@@ -32,7 +32,7 @@ export default function Contact() {
             onSubmit={handleSubmit}
             // action="https://formspree.io/f/xqayorjn"
             method="POST">
-            <div className="grid two-col">
+            <div className="grid two-col-contact">
               <label>
                 Name
                 <input
@@ -63,7 +63,7 @@ export default function Contact() {
               </label>
             </div>
 
-            <div className="grid two-col">
+            <div className="grid two-col-contact">
               <label>
                 Event Date
                 <input name="date" type="date" />
