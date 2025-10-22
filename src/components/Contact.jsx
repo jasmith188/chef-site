@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+// import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
-  const [status, setStatus] = useState('idle');
+  // const [status, setStatus] = useState('idle');
+  const [state, handleSubmit] = useForm('xqayorjn');
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
 
   return (
     <section id="contact" className="section">
@@ -24,9 +29,9 @@ export default function Contact() {
           <form
             name="contact-form"
             className="contact-form"
-            action="https://formspree.io/f/xqayorjn"
-            method="POST"
-            onSubmit={() => setStatus('submitting')}>
+            onSubmit={handleSubmit}
+            // action="https://formspree.io/f/xqayorjn"
+            method="POST">
             <div className="grid two-col">
               <label>
                 Name
@@ -36,6 +41,11 @@ export default function Contact() {
                   required
                   placeholder="Your name"
                 />
+                <ValidationError
+                  prefix="Name"
+                  field="name"
+                  errors={state.errors}
+                />
               </label>
               <label>
                 Email
@@ -44,6 +54,11 @@ export default function Contact() {
                   type="email"
                   required
                   placeholder="you@example.com"
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
                 />
               </label>
             </div>
@@ -65,6 +80,11 @@ export default function Contact() {
                 name="message"
                 rows="5"
                 placeholder="Tell me about your event, dietary needs, and preferred menu."></textarea>
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
             </label>
 
             <button
