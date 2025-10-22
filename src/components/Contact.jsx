@@ -21,23 +21,25 @@ export default function Contact() {
             />
           </figure>
 
-          <form 
-            netlify
+          <form
             name="contact-form"
             className="contact-form"
-            // action="https://formspree.io/f/your-form-id"
+            action="https://formspree.io/f/xqayorjn"
             method="POST"
-            onSubmit={() => setStatus('submitting')}
-          >
+            onSubmit={() => setStatus('submitting')}>
             <div className="grid two-col">
               <label>
                 Name
-                <input value="contact-form" name="name" type="text" required placeholder="Your name" />
+                <input
+                  name="name"
+                  type="text"
+                  required
+                  placeholder="Your name"
+                />
               </label>
               <label>
                 Email
                 <input
-                value="contact-form"
                   name="email"
                   type="email"
                   required
@@ -49,11 +51,11 @@ export default function Contact() {
             <div className="grid two-col">
               <label>
                 Event Date
-                <input value="contact-form" name="date" type="date" />
+                <input name="date" type="date" />
               </label>
               <label>
                 Guests
-                <input value="contact-form" name="guests" type="number" min="1" placeholder="8" />
+                <input name="guests" type="number" min="1" placeholder="8" />
               </label>
             </div>
 
@@ -68,11 +70,17 @@ export default function Contact() {
             <button
               className="btn"
               type="submit"
-              disabled={status === 'submitting'}
-            >
+              disabled={status === 'submitting'}>
               {status === 'submitting' ? 'Sending…' : 'Send Inquiry'}
             </button>
-            <p className="form-note">Prefer email? jasmith.188@gmail.com</p>
+            <p className="form-note">
+              Prefer email?{' '}
+              <link
+                rel="stylesheet"
+                type="email"
+                href="jasmith.188@gmail.com"
+              />
+            </p>
           </form>
         </div>
       </div>
