@@ -333,6 +333,9 @@ section.alt {
   color: var(--muted);
   margin-top: 10px;
 }
+.form-note a{
+  color: #d4aa70; /* warm brass */;
+}
 
 /* Footer */
 .footer {
