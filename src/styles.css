@@ -238,7 +238,7 @@ section.alt {
 /* About */
 .grid.two-col {
   display: grid;
-  gap: 24px;
+  /* gap: 24px; */
   grid-template-columns: 1fr;
 }
 /* .grid.two-col-about {

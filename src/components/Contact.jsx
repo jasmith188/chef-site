@@ -138,7 +138,7 @@ export default function Contact() {
         }
         #contact .contact-form input,
         #contact .contact-form textarea {
-          width: 85%;
+          width: 100%;
           margin-top: 6px;
           padding: 12px 14px;
           background: #0c0e12;
