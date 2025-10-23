@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about" className="section">
-      <div className="container grid two-col">
+      <div className="container grid two-col-about">
         <div>
           <h2>About Me</h2>
           <p>
