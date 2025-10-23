@@ -396,6 +396,11 @@ section.alt {
   }
 }
 @media (max-width: 560px) {
+  /* Contact  */
+
+  .event-input{
+    width: 75% !important;
+  }
   .brand-text {
     font-size: 12px;
   }

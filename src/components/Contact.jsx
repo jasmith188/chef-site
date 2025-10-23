@@ -66,7 +66,7 @@ export default function Contact() {
             <div className="grid two-col">
               <label>
                 Event Date
-                <input name="date" type="date" />
+                <input className="event-input" name="date" type="date" />
               </label>
               <label>
                 Guests
@@ -138,7 +138,7 @@ export default function Contact() {
         }
         #contact .contact-form input,
         #contact .contact-form textarea {
-          width: 95%;
+          width: 85%;
           margin-top: 6px;
           padding: 12px 14px;
           background: #0c0e12;
