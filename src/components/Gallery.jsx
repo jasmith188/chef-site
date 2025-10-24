@@ -6,7 +6,7 @@ const IMAGES = [
     src: '/photos/burrata.jpg',
     alt: 'burrata',
   },
-  { src: '/photos/asian-chopstick.jpg', alt: 'jimmy-apron' },
+  { src: '/photos/asian-chopstick.jpg', alt: 'sesame-chicken' },
   {
     src: '/photos/chicken-marsala.jpg',
     alt: 'chicken-marsala',
@@ -14,7 +14,7 @@ const IMAGES = [
   { src: '/photos/chicken.jpg', alt: 'chicken-roulade' },
   {
     src: '/photos/scallops-side.jpg',
-    alt: 'Walleye with brown-butter Frangelico sauce',
+    alt: 'scallops with mint pea puree',
   },
   // { src: '/photos/06.jpg', alt: 'Autumn salad with squash and pepitas' },
 ];
