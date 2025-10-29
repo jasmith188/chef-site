@@ -71,6 +71,54 @@ export default function About() {
           <p>2–24 guests (private dinners), 25–100 (receptions)</p>
           <h3>Lead Time</h3>
           <p>2–3 weeks preferred; rush dates on request</p>
+          <h2 class="h2">In-Home Meal Services</h2>
+          <p class="muted">
+            Chef-prepared meals in your kitchen—menu planning, shopping,
+            cooking, labeling, safe storage, reheating notes, and a spotless
+            cleanup. You choose conventional, local, or organic ingredients.
+            Groceries billed at cost; labor by package.
+          </p>
+          <article class="package-card">
+            <h3>4 Meals × 2 Servings</h3>
+            <p class="muted">
+              8 total servings • Labor: <strong>$180</strong> + groceries
+            </p>
+          </article>
+
+          <article class="package-card">
+            <h3>6 Meals × 2 Servings</h3>
+            <p class="muted">
+              12 total servings • Labor: <strong>$210</strong> + groceries
+            </p>
+          </article>
+
+          <article class="package-card">
+            <h3>4 Meals × 3 Servings</h3>
+            <p class="muted">
+              12 total servings • Labor: <strong>$220</strong> + groceries
+            </p>
+          </article>
+
+          <article class="package-card">
+            <h3>6 Meals × 3 Servings</h3>
+            <p class="muted">
+              18 total servings • Labor: <strong>$275</strong> + groceries
+            </p>
+          </article>
+
+          <article class="package-card">
+            <h3>4 Meals × 4 Servings</h3>
+            <p class="muted">
+              16 total servings • Labor: <strong>$255</strong> + groceries
+            </p>
+          </article>
+
+          <article class="package-card">
+            <h3>6 Meals × 4 Servings</h3>
+            <p class="muted">
+              24 total servings • Labor: <strong>$320</strong> + groceries
+            </p>
+          </article>
         </aside>
       </div>
     </section>
