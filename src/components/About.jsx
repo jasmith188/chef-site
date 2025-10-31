@@ -7,17 +7,29 @@ export default function About() {
         <div>
           <h2>About Me</h2>
           <p>
-            I’m a Wisconsin-based chef with nearly two decades across fine
-            dining, supper-club classics, and modern tasting menus. My cooking
-            blends Midwest seasonality and some East Coast flare with
-            technique—think butter-basted steaks, cold-smoked salmon, and
-            bright, vegetable-forward accents.
+            With nearly 20 years of professional culinary experience, I’m a
+            Wisconsin-based chef who seamlessly blends Midwest seasonal
+            ingredients with refined fine-dining techniques. My journey has
+            taken me through classic supper-club kitchens, modern tasting-menu
+            restaurants, and high-volume hospitality environments — giving me a
+            unique perspective on both elevated cuisine and guest-centric
+            service.
           </p>
           <p>
-            Whether you’re hosting an anniversary dinner, a friends-giving, or a
-            corporate retreat, I’ll collaborate on a custom menu, handle rentals
-            and service flow, and deliver a seamless experience from
-            amuse-bouche to dessert.
+            I believe cooking is about more than flavor: it’s about experience.
+            From the first moment you walk in the door to the final farewell, I
+            design menus and moments that feel thoughtful, personal, and
+            effortlessly refined. Whether I’m crafting a six-course tasting or a
+            relaxed family supper, I draw upon my operational leadership —
+            perfected through years overseeing FOH/BOH teams, inventory systems,
+            and service flows — to guarantee that the food is not only memorable
+            but also seamless for the host and effortless for the guest.
+          </p>
+          <p>
+            As your private chef, I bring both artistry and reliability:
+            stunning dishes you’ll want to photograph, delivered in a
+            professional service environment you can relax into. Let’s create a
+            culinary experience you’ll remember.
           </p>
           <ul className="bullets">
             <li>Custom tasting menus (4–8 courses)</li>
@@ -27,9 +39,19 @@ export default function About() {
           </ul>
           <h2>Families & Weekly Meal Planning</h2>
           <p>
-            Make weeknights effortless. I’ll shop, cook, portion, label, and
-            stock your fridge with balanced, chef-crafted meals tailored to your
-            family’s tastes and schedule.
+            Balancing busy family schedules, evolving tastes, and nutritional
+            needs is no small feat — especially when you’re also trying to
+            maintain high standards in food and presentation. I offer curated
+            weekly-meal planning and chef-prepared meals tailored to the rhythms
+            of your home.
+          </p>
+          <p>
+            Each week includes an individually designed menu that adapts to your
+            family’s dietary preferences, favorite flavors, and time
+            constraints. I source fresh, locally-inspired ingredients and
+            execute dishes that are ready for you to enjoy — whether you’re
+            feeding energetic kids, hosting after-school arrivals, or prepping
+            for a relaxed Sunday dinner.
           </p>
           <ul className="bullets">
             <li>Custom menus (kid-approved + dietary preferences)</li>
@@ -40,25 +62,40 @@ export default function About() {
           </ul>
           <h2>New Moms & Postpartum Nutrition</h2>
           <p>
-            Nourishing, hassle-free meals designed for recovery, energy, and
-            lactation support.
+            Welcoming a new baby is a beautiful, transformative time — and one
+            that demands nourishment, self-care, and practical support. I
+            specialize in thoughtfully crafted menus designed specifically for
+            the early post-partum phase, where nutrient-dense food, gentle
+            flavors, and practical preparation make all the difference.
           </p>
-          <h3>Postpartum-Focused</h3>
-          <p>
-            I craft balanced, comfort-forward menus that prioritize protein,
-            iron, fiber, healthy fats, and hydration— all with gentle flavors,
-            freezer-friendly portions, and minimal cleanup.
-          </p>
+          {/* <h3>Postpartum-Focused</h3> */}
+          <p>My post-partum service includes:</p>
           <ul class="bullets">
-            <li>Customized weekly menus (allergies & preferences honored)</li>
             <li>
-              Lactation-friendly options (oats, flax, brewer’s yeast, fennel,
-              sesame, etc.)
+              A menu crafted with ingredients known to support recovery, energy,
+              and gentle digestion (think warming broths, lean proteins,
+              seasonal vegetables, and whole grains).
             </li>
-            <li>Anti-inflammatory sides & snacks for steady energy</li>
-            <li>Freezer-ready portions with clear reheating labels</li>
-            <li>Grocery sourcing & kitchen reset included</li>
+            <li>
+              Easy-to-serve meals that respect your time, your partner’s
+              schedule, and the unpredictable rhythm of life with a newborn.
+            </li>
+            <li>
+              Simple reheating, labeling, and storage instructions so you (or
+              your support team) can nourish without stress.
+            </li>
+            <li>
+              Options for partner-friendly meals, family-friendly dishes, and
+              even snack kits tailored to maternity and early parenthood.
+            </li>
           </ul>
+          <p>
+            You deserve food that supports your body, honours this special time,
+            and frees you to focus on your baby (and yourself). Together, we’ll
+            craft a nourishment plan that fits your lifestyle, sustains your
+            energy, and elevates what it means to eat well during this new
+            chapter.
+          </p>
         </div>
 
         <aside className="about-card">
