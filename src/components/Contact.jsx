@@ -68,10 +68,10 @@ export default function Contact() {
                 Event Date
                 <input className="event-input" name="date" type="date" />
               </label>
-              <label>
+              {/* <label>
                 Guests
                 <input name="guests" type="number" min="1" placeholder="8" />
-              </label>
+              </label> */}
             </div>
 
             <label>
@@ -79,7 +79,7 @@ export default function Contact() {
               <textarea
                 name="message"
                 rows="5"
-                placeholder="Tell me about your event, dietary needs, and preferred menu."></textarea>
+                placeholder="What services do you need? Tell me about your event."></textarea>
               <ValidationError
                 prefix="Message"
                 field="message"
