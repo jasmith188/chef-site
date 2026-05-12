@@ -1,5 +1,5 @@
 import React from 'react';
-import jimmyapron from '/photos/jimmy-apron.jpg';
+import jimmyapron from '/photos/jimmy-apron.jpeg';
 
 export default function Hero() {
   return (

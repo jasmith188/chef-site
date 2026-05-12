@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="contact-layout">
           <figure className="contact-photo">
             <img
-              src="/photos/cooking.jpeg"
+              src="/photos/jimmy-jacket.PNG"
               alt="Chef Jimmy Smith, personal chef"
               loading="eager"
             />
