@@ -28,7 +28,11 @@ export default function Hero() {
         </div>
         <div className="hero-card">
           {/* <img src={jimmyapron} alt="jimmyapron" className="hero-img" /> */}
-          <img src="/photos/jimmy-apron.jpeg" alt="Jimmy in apron" />
+          <img
+            src="/photos/jimmy-apron.jpeg"
+            alt="Jimmy in apron"
+            className="hero-img"
+          />
         </div>
       </div>
     </section>
