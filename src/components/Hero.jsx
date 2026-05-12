@@ -1,5 +1,5 @@
 import React from 'react';
-import jimmyapron from '../photos/jimmy-apron.jpeg';
+// import jimmyapron from '../photos/jimmy-apron.jpeg';
 
 export default function Hero() {
   return (
@@ -27,7 +27,8 @@ export default function Hero() {
           </ul>
         </div>
         <div className="hero-card">
-          <img src={jimmyapron} alt="jimmyapron" className="hero-img" />
+          {/* <img src={jimmyapron} alt="jimmyapron" className="hero-img" /> */}
+          <img src="/photos/jimmy-apron.jpeg" alt="Jimmy in apron" />
         </div>
       </div>
     </section>
