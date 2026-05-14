@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="hero-card">
           {/* <img src={jimmyapron} alt="jimmyapron" className="hero-img" /> */}
           <img
-            src="/photos/jimmy-apron.jpg"
+            src="/photos/brown-apron.jpeg"
             alt="Jimmy in apron"
             className="hero-img"
           />
