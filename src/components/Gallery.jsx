@@ -11,8 +11,8 @@ const IMAGES = [
     alt: 'burrata',
   },
   {
-    src: '/photos/lobster-ravioli.jpg',
-    alt: 'scallops with mint pea puree',
+    src: '/photos/lobster-ravioli.jpeg',
+    alt: 'lobster-ravioli',
   },
   { src: '/photos/asian-chopstick.jpg', alt: 'sesame-chicken' },
   {
@@ -20,7 +20,7 @@ const IMAGES = [
     alt: 'chicken-marsala',
   },
   {
-    src: '/photos/mushroom-pasta.jpeg',
+    src: '/photos/mushroom-pasta.png',
     alt: 'mushroom-pasta',
   },
   { src: '/photos/chicken.jpg', alt: 'chicken-roulade' },
