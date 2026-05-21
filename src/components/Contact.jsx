@@ -39,7 +39,7 @@ export default function Contact() {
                   name="name"
                   type="text"
                   required
-                  placeholder="Your name"
+                  // placeholder="Your name"
                 />
                 <ValidationError
                   prefix="Name"
@@ -53,7 +53,7 @@ export default function Contact() {
                   name="email"
                   type="email"
                   required
-                  placeholder="you@example.com"
+                  // placeholder="you@example.com"
                 />
                 <ValidationError
                   prefix="Email"
@@ -95,7 +95,9 @@ export default function Contact() {
             </button>
             <p className="form-note">
               Prefer email?{' '}
-              <a href="mailto:maisonprovisions@gmail.com">maisonprovisions@gmail.com</a>
+              <a href="mailto:chefjimmy@maisonprovisions.com">
+                chefjimmy@maisonprovisions.com
+              </a>
             </p>
           </form>
         </div>
