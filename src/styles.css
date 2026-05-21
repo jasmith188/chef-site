@@ -429,10 +429,10 @@ section.alt {
     width: 75% !important;
   }
   .brand-text {
-    font-size: 12px;
+    font-size: 1rem;
   }
   nav a {
-    font-size: 12px;
+    font-size: 1rem;
     margin-left: 9px !important;
   }
   .nav .cta {
@@ -446,7 +446,7 @@ section.alt {
     flex-wrap: wrap;
   }
   .hero-card {
-    aspect-ratio: 16 / 10; /* wide crop on desktop */
+    aspect-ratio: 9 / 10; /* wide crop on desktop */
     max-height: none;
   }
 }
