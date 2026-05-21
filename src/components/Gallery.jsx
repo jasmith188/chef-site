@@ -3,19 +3,36 @@ import React, { useState } from 'react';
 const IMAGES = [
   // Replace with your files in /public/photos
   {
+    src: '/photos/steak.png',
+    alt: 'steak',
+  },
+  {
     src: '/photos/burrata.jpg',
     alt: 'burrata',
+  },
+  {
+    src: '/photos/lobster-ravioli.jpg',
+    alt: 'scallops with mint pea puree',
   },
   { src: '/photos/asian-chopstick.jpg', alt: 'sesame-chicken' },
   {
     src: '/photos/chicken-marsala.jpg',
     alt: 'chicken-marsala',
   },
+  {
+    src: '/photos/mushroom-pasta.jpeg',
+    alt: 'mushroom-pasta',
+  },
   { src: '/photos/chicken.jpg', alt: 'chicken-roulade' },
   {
     src: '/photos/scallops-side.jpg',
     alt: 'scallops with mint pea puree',
   },
+  {
+    src: '/photos/snapper-blackened.png',
+    alt: 'snapper-blackened',
+  },
+
   // { src: '/photos/06.jpg', alt: 'Autumn salad with squash and pepitas' },
 ];
 
