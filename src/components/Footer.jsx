@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <p>© {year} Chef Jimmy Smith. All rights reserved.</p>
+        <p>© {year} maison provisions. All rights reserved.</p>
         <nav className="footer-nav">
           <a href="#about">About</a>
           <a href="#gallery">Photos</a>

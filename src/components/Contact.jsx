@@ -95,7 +95,7 @@ export default function Contact() {
             </button>
             <p className="form-note">
               Prefer email?{' '}
-              <a href="mailto:jasmith.188@gmail.com">jasmith.188@gmail.com</a>
+              <a href="mailto:maisonprovisions@gmail.com">maisonprovisions@gmail.com</a>
             </p>
           </form>
         </div>
