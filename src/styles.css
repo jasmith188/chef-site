@@ -110,7 +110,7 @@ section.alt {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
   text-decoration: none;
   color: var(--text);
   font-weight: 700;
