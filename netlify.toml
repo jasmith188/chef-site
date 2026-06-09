@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+from = "https://chefjimmysmith.com/*"
+to = "https://thehostingtableco.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.chefjimmysmith.com/*"
+to = "https://thehostingtableco.com/:splat"
+status = 301
+force = true
